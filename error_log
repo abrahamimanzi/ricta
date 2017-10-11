@@ -1,0 +1,273 @@
+[13-Oct-2016 10:22:02 UTC] PHP Warning:  include(views/company/members.php): failed to open stream: No such file or directory in /home/smartafrica/public_html/tas17/admin/views/routes.php on line 168
+[13-Oct-2016 10:22:02 UTC] PHP Warning:  include(): Failed opening 'views/company/members.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/smartafrica/public_html/tas17/admin/views/routes.php on line 168
+[17-Oct-2016 16:48:39 UTC] PHP Notice:  Undefined variable: session_company_ID in /home/smartafrica/public_html/tas17/admin/views/company/members/member-list.php on line 100
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size_used in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 136
+[07-Dec-2016 13:37:05 UTC] PHP Notice:  Undefined property: stdClass::$size in /home/smartafrica/public_html/tas17/admin/views/company/subscriber/subscriber-category.php on line 148
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 11:14:18 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 12:13:29 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:17 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:00:50 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:07:43 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 61
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 14:08:00 UTC] PHP Notice:  Trying to get property of non-object in /home/smartafrica/public_html/tas17_test/admin/views/events/participant/participant_data.php on line 67
+[14-Jan-2017 15:50:27 UTC] PHP Notice:  Undefined property: stdClass::$SUCCESS in /home/smartafrica/public_html/tas17/admin/app/controller.php on line 462
