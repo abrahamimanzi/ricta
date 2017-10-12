@@ -580,16 +580,16 @@ class Payment
 
             // active
             // $accountData = array(
-            //     'merchant_id' => 'BOK000003',
-            //     'access_code' => '69E28154',
-            //     'secret'      => '62E8CC6E522EEDEF625561CDAAAE74E8'
+            //     'merchant_id' => 'BOK000017',
+            //     'access_code' => '6E1D4213',
+            //     'secret'      => '64D39353B699D231D047AF7585A56E64'
             // );
 
             //test
             $accountData = array(
-                'merchant_id' => 'TESTBOK000003',
-                'access_code' => 'D4342031',
-                'secret'      => '85A3C14B3871EB7802D07072B25O959C'
+                'merchant_id' => 'TESTBOK000017',
+                'access_code' => '9E7C9D4E',
+                'secret'      => '1C57A53FDDDE4B812AAA452A10FC8545'
             );
 
             // multi currency

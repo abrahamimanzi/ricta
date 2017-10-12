@@ -25,7 +25,7 @@
                       
 					<div class="panel-heading">
                         <div class="app_logo">
-                            <img src="<?=DNADMIN?>/icon/tas-logo.png" class="app_icon img" style="width: 135px;">
+                            <img src="<?=DNADMIN?>/img/ricta_logo.png" class="app_icon img" style="width: 135px;">
                         </div>
 					</div>
 					   <div class="panel-body">

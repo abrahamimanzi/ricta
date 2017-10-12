@@ -35,7 +35,7 @@
 				</ul>
             </li>
 -->
-            <?php ?>
+            <?php /* ?>
             <li class="treeview <?php if($url_struc['tree'] == "app" && $url_struc['app-idname']=="EventApp"){ echo 'actived';}?>">
                 <a href="#"><i class="fa fa-book blueapp-col"></i> <span> Participants</span></a>
                 <ul class="treeview-menu">
@@ -116,7 +116,7 @@
                     </li>
 				</ul>
             </li>
-            <?php  ?>
+            <?php */ ?>
             <?php
                 if($session_user_data->groups == 'Admin' || $session_user_data->groups == 'Admin-User' || $session_user_data->groups == 'Super-Admin-User' || $session_user_data->groups == 'OGS-User' || $session_user_data->groups == 'RG-Admin' || $session_user_data->groups == 'RG-SUPER-Admin'){?>
             

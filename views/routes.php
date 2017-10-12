@@ -145,7 +145,7 @@ if(!empty($url_struc['tree'])){
                         include 'views/company/profile'.PL;
                     break;
                     case 'payment':
-                        include 'views/events/participant/payment-list'.PL;
+                        include 'views/payment/payment-list'.PL;
                     break;
                     case 'users':
                         switch($url_struc['branch']){    

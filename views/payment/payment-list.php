@@ -4,8 +4,8 @@
         background: transparent;
     }
 </style>
-<?php include 'participant-content_header'.PL;?>
-<?php include 'participant-content_navbar'.PL;?>
+<?php include 'payment-content_header'.PL;?>
+<?php include 'payment-content_navbar'.PL;?>
 
 
 <!-- Main content -->
@@ -27,7 +27,7 @@
                          Redirect::to("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
                     }
                     if(Input::checkInput('sort-name','post','0')){
-                        $_SESSION['participant_sort'] = $_SESSION['participant_sort'] == "`firstname` ASC" ? "`firstname` DESC" : "`firstname` ASC";
+                        $_SESSION['participant_sort'] = $_SESSION['participant_sort'] == "`registrar` ASC" ? "`registrar` DESC" : "`registrar` ASC";
                          Redirect::to("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
                     }
                     if(Input::checkInput('sort-category','post','0')){
@@ -38,12 +38,8 @@
                         $_SESSION['participant_sort'] = $_SESSION['participant_sort'] == "`pass_type` ASC" ? "`pass_type` DESC" : "`pass_type` ASC";
                          Redirect::to("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
                     }
-                    if(Input::checkInput('sort-company_name','post','0')){
-                        $_SESSION['participant_sort'] = $_SESSION['participant_sort'] == "`company_name` ASC" ? "`company_name` DESC" : "`company_name` ASC";
-                         Redirect::to("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
-                    }
                     if(Input::checkInput('sort-added_date','post','0')){
-                        $_SESSION['participant_sort'] = $_SESSION['participant_sort'] == "`added_temp` ASC" ? "`added_temp` DESC" : "`added_temp` ASC";
+                        $_SESSION['participant_sort'] = $_SESSION['participant_sort'] == "`payment_date` ASC" ? "`payment_date` DESC" : "`payment_date` ASC";
                          Redirect::to("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
                     }
                     if(Input::checkInput('sort-payment_state','post','0')){
@@ -57,44 +53,35 @@
 
                     $search_sql = "";
                     $search_form = false;
-                    $sql_val_array = array('Deleted',$event_ID);
+                    // $sql_val_array = array('Deleted',$event_ID);
+                    $sql_val_array = array('Deleted');
                    
                     if(Input::checkInput('search','get','1')){
                         $search_form = true;
-                        $fullname = urldecode(Input::get('name','get'));
+                        $registrar = urldecode(Input::get('registrar','get'));
                         $keyword = urldecode(Input::get('keyword','get'));
                         $state = urldecode(Input::get('state','get'));
 
                         if(Input::checkInput('keyword','get','1')){
                             $search_sql .= " 
-                                AND (`firstname` LIKE '%{$keyword}%' || 
-                                    `lastname` LIKE '%{$keyword}%' || 
-                                    `category` LIKE '%{$keyword}%'|| 
-                                    `email` LIKE '%{$keyword}%' ||
-                                    `telephone` LIKE '%{$keyword}%' ||
-                                    `package_type` LIKE '%{$keyword}%' ||
+                                AND (`registrar` LIKE '%{$keyword}%' || 
+                                    `payment_rn` LIKE '%{$keyword}%' || 
+                                    `amount` LIKE '%{$keyword}%'|| 
+                                    `currency` LIKE '%{$keyword}%' ||
+                                    `receipt_number` LIKE '%{$keyword}%' ||
+                                    `transaction_number` LIKE '%{$keyword}%' ||
                                     `state` LIKE '%{$keyword}%' ||
-                                    `company_name` LIKE '%{$keyword}%' ||
-                                    `code` LIKE '%{$keyword}%' ||
-                                    `residence_country` LIKE '%{$keyword}%' ||
-                                    `residence_city` LIKE '%{$keyword}%' ||
-                                    `citizenship_country` LIKE '%{$keyword}%' ||
-                                    `document_type` LIKE '%{$keyword}%' ||
-                                    `document_number` LIKE '%{$keyword}%' ||
-                                    `media_card` LIKE '%{$keyword}%' ||
-                                    `category` LIKE '%{$keyword}%' ||
-                                    `pass_type` LIKE '%{$keyword}%' ||
-                                    `jobtitle` LIKE '%{$keyword}%' ||
-                                    `telephone_office` LIKE '%{$keyword}%' ||
-                                    `gender` LIKE '%{$keyword}%' ||
-                                    `website` LIKE '%{$keyword}%' ||
+                                    `card_issue` LIKE '%{$keyword}%' ||
+                                    `card_number` LIKE '%{$keyword}%' ||
+                                    `payment_date` LIKE '%{$keyword}%' ||
+                                    `payment_state` LIKE '%{$keyword}%' ||
                                     `ID` = '{$keyword}')";
                         }
-                        if(Input::checkInput('name','get','1')){
+                        if(Input::checkInput('registrar','get','1')){
                             $search_sql .= " 
-                                AND (`firstname` LIKE '%{$fullname}%' || 
-                                    `lastname` LIKE '%{$fullname}%' || 
-                                    `category` LIKE '%{$fullname}%')";
+                                AND (`registrar` LIKE '%{$registrar}%' || 
+                                    `payment_rn` LIKE '%{$registrar}%' || 
+                                    `amount` LIKE '%{$registrar}%')";
                         }
                         if(Input::checkInput('state','get','1')){
                             if(Input::get('state','get')=='Activated'){
@@ -117,11 +104,11 @@
                     <div class="box-header with-border">
                     <?php
 
-                        $participantTable = new Participant();
-                        $participantTable->selectQuery("SELECT * FROM `events_participant` WHERE   `pass_type`!='No pass' AND `state`!=? AND `event_ID`=? $search_sql ",$sql_val_array);
+                        $participantTable = new PaymentResponse();
+                        $participantTable->selectQuery("SELECT * FROM `payment_receive` ");
                         $participantApprovalNumber = $participantTable ->count();
                     ?>
-                      <h3 class="box-title">Participant list  <span style='color:#01aef0'><?=$participantApprovalNumber?></span></h3>
+                      <h3 class="box-title">Payment list  <span style='color:#01aef0'><?=$participantApprovalNumber?></span></h3>
 
                       <div class="box-tools pull-right">
                         <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -148,15 +135,14 @@
                           <thead>
                             <form method="post">
                               <tr>
-                                <th><button type="submit" name="sort-id">Reg. ID</button></th>
-                                <th><button type="submit" name="sort-name">Names</button></th>
-                                <th><button type="submit" name="sort-category">Category</button></th>
-                                <th><button type="submit" name="sort-pass_type">Pass</button></th>
-                                <th><button type="submit" name="sort-pass_type">Request</button></th>
-                                <th><button type="submit" name="sort-residence_country">Country</button></th>
-                                <th><button type="submit" name="sort-company_name">Organisation name</button></th>
+                                <th><button type="submit" name="sort-id">ID</button></th>
+                                <th><button type="submit" name="sort-registrar">Registrar</button></th>
+                                <th><button type="submit" name="sort-amount">Amount</button></th>
+                                <th><button type="submit" name="sort-currency">Currency</button></th>
+                                <th><button type="submit" name="sort-card_issue">Card issue</button></th>
+                                <th><button type="submit" name="sort-card_number">Card number</button></th>
                                 <th style="width: 95px" title="Registration Date">
-                                    <button type="submit" name="sort-added_date">Reg Date</button>
+                                    <button type="submit" name="sort-added_date">Payment date</button>
                                 </th>
                                 <th title="Time Lapsed" style="width: 85px;">
                                     <button type="submit" name="sort-added_date">Days left</button>
@@ -172,8 +158,8 @@
                             <?php
                               
                             $seconds = \Config::get('time/seconds');
-                              $participantTable = new Participant();
-								$participantTable->selectQuery("SELECT* FROM `events_participant` WHERE `pass_type`!='No pass' AND `state`!=? AND `event_ID`=? $search_sql ORDER BY {$_SESSION['participant_sort']}",$sql_val_array);
+                              $participantTable = new PaymentResponse();
+								$participantTable->selectQuery("SELECT* FROM `payment_receive` WHERE `state`!=? $search_sql ORDER BY {$_SESSION['participant_sort']}",$sql_val_array);
                                // $events_select = $participantDb->get('all','events_participant',array('company_ID','=',$company_data->ID));
                                 
 								/*Start Pagination Setting*/
@@ -202,16 +188,16 @@
                                 $to_date = Input::get('to_date','post');
                                 echo $from_date;
                                 echo $to_date;
-                                $participantTable = new Participant();
+                                $participantTable = new PaymentResponse();
                                 // $participantTable->selectQuery("SELECT * FROM `events_participant` WHERE `payment_state`='Confirmed' AND `state`!='Confirmed' AND `state`!=? AND `event_ID`=? $search_sql ORDER BY {$_SESSION['participant_sort']} LIMIT {$offsetNumber},{$rowsLimit}",$sql_val_array);
                                 // $participantTable->selectQuery("SELECT * FROM `events_participant` WHERE `state`!=? AND `event_ID`=? $search_sql ORDER BY {$_SESSION['participant_sort']} LIMIT {$offsetNumber},{$rowsLimit}",$sql_val_array);
                                 // $participantTable->selectQuery("SELECT * FROM `events_participant` WHERE `added_date` >= '25-03-2017' AND `added_date` <= '29-03-2017'");
-                                $participantTable->selectQuery("SELECT * FROM `events_participant` WHERE `added_date` >= '$from_date' AND `added_date` <= '$to_date'");
+                                $participantTable->selectQuery("SELECT * FROM `payment_receive` WHERE `added_date` >= '$from_date' AND `added_date` <= '$to_date'");
                                 // $participantTable->selectQuery("SELECT * FROM `events_participant` WHERE From_date between '$from_date' AND '$to_date'");
                             }elseif(Input::checkInput('keyword','get','0') || strlen(Input::get('keyword','get'))<3){
                                 
-                              $participantTable = new Participant();
-                              $participantTable->selectQuery("SELECT * FROM `events_participant` WHERE `pass_type`!='No pass' AND `state`!=? AND `event_ID`=? $search_sql ORDER BY {$_SESSION['participant_sort']} LIMIT {$offsetNumber},{$rowsLimit}",$sql_val_array);
+                              $participantTable = new PaymentResponse();
+                              $participantTable->selectQuery("SELECT * FROM `payment_receive` WHERE `state`!=?  $search_sql ORDER BY {$_SESSION['participant_sort']} LIMIT {$offsetNumber},{$rowsLimit}",$sql_val_array);
                                 
                             }
                               
@@ -220,45 +206,46 @@
 									foreach($participantTable->data() as $participant_data){
 										$i++;
                                         $participant_ID = $participant_data->ID;
-                                        $reg_time_ago = Dates::get_timeago($participant_data->added_temp);
+                                        $reg_time_ago = Dates::get_timeago($participant_data->payment_date);
                                         $reg_time_ago_array = explode(' ',$reg_time_ago);
                                         $reg_time_ago_n = $reg_time_ago_array[0];
                                         $reg_time_ago_u = $reg_time_ago_array[1];
                                         
                                         $stateColor =  Functions::getStateCol($participant_data->state);
                                         
-                                        if($participant_data->pass_type == 'Visitor'){
-                                            $deadline = 14;
-                                        }elseif($participant_data->pass_type == 'Media'){
-                                            $deadline = 5;
-                                        }else{
-                                            $deadline = 7;
-                                        }
+                                        // if($participant_data->pass_type == 'Visitor'){
+                                        //     $deadline = 14;
+                                        // }elseif($participant_data->pass_type == 'Media'){
+                                        //     $deadline = 5;
+                                        // }else{
+                                        //     $deadline = 7;
+                                        // }
+                                        $deadline = 7;
                                         
-                                        $lapsed_time = Dates::get_daylapsed($participant_data->added_temp,$deadline,'day');
+                                        $lapsed_time = Dates::get_daylapsed($participant_data->payment_date,$deadline,'day');
                                         $lapsed_time_n = (int)$lapsed_time;
                                         if($participant_data->state == 'Pending'){
                                             if($lapsed_time_n < 0){
                                                 $stateColor = "red";
                                             }
                                         }
-                                        if(($participant_data->payment_state == 'Confirmed' || 
-                                            $participant_data->payment_state == 'Free'|| 
-                                            $participant_data->category == 'Media'|| 
-                                            $participant_data->category == 'Speaker'|| 
-                                            $participant_data->pass_type == 'Visitor') && $participant_data->state == 'Confirmed'){
-                                            $stateColor = "#18ab86";                                    
-                                            $lapsed_time = "--";
-                                        }
-                                        if(($participant_data->pass_type == 'Silver'|| 
-                                            $participant_data->pass_type == 'Gold'|| 
-                                            $participant_data->pass_type == 'Platinum'|| 
-                                            $participant_data->pass_type == 'Exhibitor') && 
-                                           $participant_data->payment_state != 'Confirmed' &&
-                                           $participant_data->state == 'Confirmed'){
-                                            $stateColor = "#01aef0";                                    
-                                            $lapsed_time = "--";
-                                        }
+                                        // if(($participant_data->payment_state == 'Confirmed' || 
+                                        //     $participant_data->payment_state == 'Free'|| 
+                                        //     $participant_data->category == 'Media'|| 
+                                        //     $participant_data->category == 'Speaker'|| 
+                                        //     $participant_data->pass_type == 'Visitor') && $participant_data->state == 'Confirmed'){
+                                        //     $stateColor = "#18ab86";                                    
+                                        //     $lapsed_time = "--";
+                                        // }
+                                        // if(($participant_data->pass_type == 'Silver'|| 
+                                        //     $participant_data->pass_type == 'Gold'|| 
+                                        //     $participant_data->pass_type == 'Platinum'|| 
+                                        //     $participant_data->pass_type == 'Exhibitor') && 
+                                        //    $participant_data->payment_state != 'Confirmed' &&
+                                        //    $participant_data->state == 'Confirmed'){
+                                        //     $stateColor = "#01aef0";                                    
+                                        //     $lapsed_time = "--";
+                                        // }
                                         if($participant_data->payment_state == 'Confirmed' &&
                                            $participant_data->state == 'Denied'){
                                             $stateColor = "#fb00a1";                                            
@@ -284,9 +271,9 @@
                                             }
                                         }
                                         
-                                        if($participant_data->host_ID){
-                                            $hostTable = new Participant();
-                                            $hostTable->selectQuery("SELECT * FROM `events_participant` WHERE `ID`=? LIMIT 1",array($participant_data->host_ID));
+                                        if($participant_data->ID){
+                                            $hostTable = new PaymentResponse();
+                                            $hostTable->selectQuery("SELECT * FROM `payment_receive` WHERE `ID`=? LIMIT 1",array($participant_data->ID));
                                             $host_data = $hostTable->first();
                                         }
 
@@ -295,19 +282,20 @@
 
                                       <tr class="row_layout">
                                         <td>
-                                            <a style="border-color: <?=$stateColor?>" class="id popover-el participant-menu-popover-<?=$participant_data->ID?>"><?=$participant_data->code;?> <i class="fa fa-angle-down pull-right menu_icon"></i></a>
+                                            <a style="border-color: <?=$stateColor?>" class="id popover-el participant-menu-popover-<?=$participant_data->ID?>"><?=$participant_data->ID;?> <i class="fa fa-angle-down pull-right menu_icon"></i></a>
                                         </td>
                                         <td>
-                                            <span data-toggle="modal" data-target="#myModal_<?=$participant_data->ID?>" ><?=$participant_data->firstname?> <?=$participant_data->lastname?></span>
+                                            <span data-toggle="modal" data-target="#myModal_<?=$participant_data->ID?>" ><?=$participant_data->registrar?></span>
                                         </td>
                                         <td>
-                                            <span data-toggle="modal" data-target="#myModal_<?=$participant_data->ID?>" ><?php echo $participant_data->category;?></span>
+                                            <span data-toggle="modal" data-target="#myModal_<?=$participant_data->ID?>" ><?php echo $participant_data->amount;?></span>
                                         </td>
-                                        <td><?=$participant_data->pass_type?></td>
-                                        <td><?=$participant_data->registration_type?></td>
-                                        <td><?=$participant_data->residence_country?></td>
-                                        <td><?=$participant_data->company_name?></td>
-                                        <td><span><?=$participant_data->added_date?></span></td>
+                                        <td><?=$participant_data->currency?></td>
+                                        <td><?=$participant_data->card_issue?></td>
+                                        <td><?=$participant_data->card_number?></td>
+                                        <td><span><?=$participant_data->payment_date?>
+                                        <?=$newDate = date("Y/m/d H:i:s", strtotime($participant_data->payment_date))?>
+                                        </span></td>
                                         <td class="text-center"><span><?php echo $lapsed_time;?></span></td>
                                         <td><?=$participant_data->payment_state?></td>
                                         <td ><span style="color: #fff; background: <?=$stateColor?>; display: block; padding: 2px 5px"><?=$participant_data->state?></span></td>
