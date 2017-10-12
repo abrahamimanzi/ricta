@@ -3,7 +3,8 @@ require_once 'core/init.php';
 require_once 'app/controller.php'; 
 if(!$session_user->isLoggedIn()){ 
 	Redirect::to(DNADMIN.'/login');
-}?>
+}
+?>
 
 <!DOCTYPE html>
 <html>

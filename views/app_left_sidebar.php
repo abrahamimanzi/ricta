@@ -21,7 +21,7 @@
 		<ul class="sidebar-menu">
 			<li class="header">Menu</li>
 			<!-- Optionally, you can add icons to the links -->
-            <li class=""><a href="<?=DNADMIN?>/app/EventApp/5"><i class="fa fa-laptop"></i> <span>Dashboard</span></a></li>
+            <li class=""><a href="<?=DNADMIN?>/"><i class="fa fa-laptop"></i> <span>Dashboard</span></a></li>
            
 <!--
             <li class="treeview <?php if($url_struc['tree'] == "app" && $url_struc['app-idname']=="EventApp"){ echo 'actived';}?>">
@@ -117,7 +117,7 @@
 				</ul>
             </li>
             <?php */ ?>
-            <?php
+            <?php /*
                 if($session_user_data->groups == 'Admin' || $session_user_data->groups == 'Admin-User' || $session_user_data->groups == 'Super-Admin-User' || $session_user_data->groups == 'OGS-User' || $session_user_data->groups == 'RG-Admin' || $session_user_data->groups == 'RG-SUPER-Admin'){?>
             
             <li class="treeview <?php if($url_struc['tree'] == "company" && $url_struc['trunk']=="subscriber"){ echo 'actived';}?>">
@@ -133,7 +133,7 @@
                         <a href="<?=DNADMIN?>/company/subscriber/list"><i class="fa fa-circle-o icon"></i> <span>View all</span></a></li>
 				</ul>
             </li>
-            <?php } ?>
+            <?php } */ ?>
 
             
 			<li class="header">Company</li>

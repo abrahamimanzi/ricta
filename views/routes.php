@@ -125,9 +125,9 @@ if(!empty($url_struc['tree'])){
                     case 'new':
                         include 'views/events/event-new'.PL;
                     break;
-                    case 'payment':
-                        include 'views/events/participant/payment-list'.PL;
-                    break;
+                    // case 'payment':
+                    //     include 'views/events/participant/payment-list'.PL;
+                    // break;
                     default:
                         include 'views/events/event-home'.PL;
                     break;
@@ -141,11 +141,14 @@ if(!empty($url_struc['tree'])){
 			Functions::flashMsg();
             if(count($url_struc['trunk'])){
                 switch($url_struc['trunk']){
-                    case 'profile':
-                        include 'views/company/profile'.PL;
+                    case 'home':
+                        include 'views/payment/event-view'.PL;
                     break;
                     case 'payment':
                         include 'views/payment/payment-list'.PL;
+                    break;
+                    case 'profile':
+                        include 'views/company/profile'.PL;
                     break;
                     case 'users':
                         switch($url_struc['branch']){    
@@ -484,7 +487,7 @@ if(!empty($url_struc['tree'])){
         if($session_user_data->groups == 'RG-Admin' || $session_user_data->groups == 'RG-SUPER-Admin'){
             include 'views/events/participant/participant-forapproval'.PL;
         }else{
-            include 'views/events/participant/participant-list'.PL;
+            include 'views/payment/payment-home'.PL;
         }
     }
 }

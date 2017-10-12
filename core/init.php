@@ -72,9 +72,9 @@ $GLOBALS['config'] = array(
 		// 'db' => 'theevent_pas'
         
 		// 'host' => 'localhost',
-		// 'username' => 'smartafr_17_user',
-		// 'password' => '17_pass',
-		// 'db' => 'smartafr_tas17_test'
+		// 'username' => 'root',
+		// 'password' => 'kd_ricta',
+		// 'db' => '01_ricta_db'
         
 		'host' => 'localhost',
 		'username' => 'root',

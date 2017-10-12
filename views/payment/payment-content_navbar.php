@@ -10,7 +10,7 @@
             <ul class="nav navbar-nav">
                 
               <li class="">
-                <a href="<?=DNADMIN?>/app/EventApp/<?=$event_ID?>/"> <i class="fa fa-home"></i> Home </a>
+                <a href="<?=DNADMIN?>/"> <i class="fa fa-home"></i> Home </a>
               </li>
               <li class="">
                 <a href="<?=DNADMIN?>/app/EventApp/5/participant-finder"> <i class="fa fa-search"></i> Advanced Filter </a>
