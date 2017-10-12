@@ -10,17 +10,19 @@ date_default_timezone_set('Africa/Maputo');
 //------------------//
 // CONFIGURE HTTPS //
 
-if($_SERVER['HTTP_HOST'] != 'localhost' && $_SERVER['HTTP_HOST'] != '127.0.0.1'){
-    $http = 'https'; 
-    if(empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "off"){
-        $redirect = $http.'://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-        header('HTTP/1.1 301 Moved Permanently');
-        header('Location: ' . $redirect);
-        exit();
-    }
-}else{
-    $http = 'http';
-}
+// if($_SERVER['HTTP_HOST'] != 'localhost' && $_SERVER['HTTP_HOST'] != '127.0.0.1'){
+//     $http = 'https'; 
+//     if(empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "off"){
+//         $redirect = $http.'://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+//         header('HTTP/1.1 301 Moved Permanently');
+//         header('Location: ' . $redirect);
+//         exit();
+//     }
+//     $http = 'http';
+// }else{
+//     $http = 'http';
+// }
+$http = 'http';
 // for test //
 // $http = 'http';
 
